@@ -1,0 +1,52 @@
+input {
+  float: left;
+  width: 1em;
+  height: 1em;
+}
+
+label {
+  @media screen and (max-width: 400px) and (min-width: 281px){
+    width: 40%
+  }
+  @media screen and (max-width: 280px){
+    width: 38%
+  }
+  width: 42%;
+  float: left;
+}
+
+#multi {
+  @media screen and (max-width: 280px){
+    width: 38%
+  }
+  width: 40%
+}
+
+#question-header {
+  font-weight: 700;
+}
+
+#answer-text {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  flex-basis: content
+}
+
+#results-text {
+  display: flex;
+  height: 50px;
+  width: 100%;
+}
+
+#score {
+  float:right;
+}
+
+#result-correct {
+  color: green;
+}
+
+#result-wrong {
+  color: red;
+}

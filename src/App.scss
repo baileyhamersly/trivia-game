@@ -1,0 +1,36 @@
+.App {
+  display: flex;
+  font-family:Roboto;
+  background-color: #FFF;
+  color: #2D2D2D;
+  line-height: 150%;
+  height: 700px
+}
+
+button {
+  background-color: #065FB1;
+  color: #FFF;
+  font-family:Roboto;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  filter: drop-shadow(-1px 1px 3px #888);
+  font-weight: 400;
+  height: 40px;
+  width: 130px;
+}
+
+.main-container {
+  display: flex;
+  margin: auto;
+  width: 400px;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  padding: 10px;
+}
+
